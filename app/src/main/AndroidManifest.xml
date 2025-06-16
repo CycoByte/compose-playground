@@ -13,8 +13,18 @@
         android:theme="@style/Theme.ComposePlaygroundApp"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ComposeNavigationSingleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_compose_navigation_single"
+            android:theme="@style/AppThemeV3.NoActionBar" />
+        <activity
+            android:name=".activities.HybridActivity"
+            android:exported="false"
+            android:theme="@style/AppThemeV3.NoActionBar" />
+        <activity
             android:name=".activities.ComposeActivityWithArgs"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ComposePlaygroundApp" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
